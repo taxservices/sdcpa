@@ -4,50 +4,71 @@
 
 * [Netlify](https://netlify.com)
 * [Netlify CMS](https://www.netlifycms.org/)
-* [Netlify functions](https://www.netlify.com/products/functions/)
+* [Netlify Forms](https://www.netlify.com/products/forms/)
+* [Netlify Functions](https://www.netlify.com/products/functions/)
 * [Gatsby](https://gatsbyjs.org)
-* [Styled components](https://www.styled-components.com/)
+* [Styled Components](https://www.styled-components.com/)
 * [Theme-UI](https://theme-ui.com/)
 * Slack notifications
 
-### Templates, pages, and components with estimates in hours
+### Roadmap
 
-* Homepage [x]
+> aproximately 100 hours
+
+* Homepage template [x]
   * Header
-  * Hero section [x]
-    * Content [x]
-    * CTA [x]
-  * CPA services section [x]
-    * Post excerpt [x]
+  * Hero section component [1]
+    * Content component [0.5]
+    * CTA component [0.5]
+  * CPA services section component [2]
+    * Post excerpt component
     * Read more button
     * Call button
-  * Featured posts section [x]
-  * FAQ section [x]
-  * Contact section [x]
-    * Social media link list [x]
-    * Form [x]
-    * Serverless function to send email [x]
+  * Featured posts section component [2]
+  * FAQ section component [2-4]?
+  * Contact section component [x]
+    * Social media link list component [2]
+    * Form component [5]
+    * Serverless function to send email component [3]
   * Footer
-* Article / Service template [x]
+* Article template [2]
   * Header
-  * Content [x]
+  * Content component
+  * Next / Previous Article [2]
   * Footer
-* Blog page [x]
+* Blog page [2.5]
   * Header
-  * List of articles [x]
-    * Title [x]
-    * Excerpt [x]
+  * List of articles component [1]
+    * Title component [0.5]
+    * Excerpt component [0.5]
+    * Read more Button
   * Footer
 * Common components [x]
-  * Header [x]
-    * Logo [x]
-    * Mobile nav [x]
-    * Mobile slider [x]
-    * Desktop nav [x]
-    * CTA [x]
-  * Footer [x]
-  * Phone CTA [x]
-  * Buttons [x]
+  * Content component (global styles) [3]
+  * Header component [4]
+    * Logo component [0.5]
+    * Mobile nav component [3]
+    * Desktop nav component [2]
+    * Promo bar component [0.5]
+  * Footer component [1]
+  * Phone CTA component [2.5]
+  * Buttons component [2]
+* Commitizen [1]
+* Theme-UI [3]
+* Styled-components [1]
+* CMS configutarion [6]
+* Dev documentation [3]
+* Author documentation [3]
+* Animations & transitions [4]
+
+#### Routing
+
+Logo - `/`
+Services - `#services`
+Resources - `#resources`
+Blog - `/blog`
+FAQ - `#faq`
+Contact us - `#contacts`
 
 ### Workflow
 
