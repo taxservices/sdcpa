@@ -11,11 +11,16 @@
 * [Theme-UI](https://theme-ui.com/)
 * Slack notifications
 
-### Roadmap
+### Time estimate
 
-> aproximately 100 hours
+> 100+ hours total
 
-* Homepage template [x]
+<details>
+<summary>
+  Estimates per task
+</summary>
+
+* Homepage template [20]
   * Header
   * Hero section component [1]
     * Content component [0.5]
@@ -25,8 +30,8 @@
     * Read more button
     * Call button
   * Featured posts section component [2]
-  * FAQ section component [2-4]?
-  * Contact section component [x]
+  * FAQ section component [4]
+  * Contact section component [10]
     * Social media link list component [2]
     * Form component [5]
     * Serverless function to send email component [3]
@@ -43,7 +48,7 @@
     * Excerpt component [0.5]
     * Read more Button
   * Footer
-* Common components [x]
+* Common components [18.5]
   * Content component (global styles) [3]
   * Header component [4]
     * Logo component [0.5]
@@ -61,14 +66,16 @@
 * Author documentation [3]
 * Animations & transitions [4]
 
+</details>
+
 #### Routing
 
-Logo - `/`
-Services - `#services`
-Resources - `#resources`
-Blog - `/blog`
-FAQ - `#faq`
-Contact us - `#contacts`
+* Logo - `/`
+* Services - `#services`
+* Resources - `#resources`
+* FAQ - `#faq`
+* Blog - `/blog`
+* Contact us - `#contacts`
 
 ### Workflow
 
