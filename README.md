@@ -9,7 +9,6 @@
 * [Gatsby](https://gatsbyjs.org)
 * [Styled Components](https://www.styled-components.com/)
 * [Theme-UI](https://theme-ui.com/)
-* Slack notifications
 
 ### Time estimate
 
@@ -80,3 +79,7 @@
 ### Workflow
 
 CMS => Git => CDN
+
+### Resources
+
+* [Gatsby Netlify CMS Starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms)
