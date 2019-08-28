@@ -14,6 +14,8 @@
 
 > 100+ hours total
 
+Deadline: 1st of November
+
 <details>
 <summary>
   Estimates per task
@@ -29,11 +31,6 @@
     * Read more button
     * Call button
   * Featured posts section component [2]
-  * FAQ section component [4]
-  * Contact section component [10]
-    * Social media link list component [2]
-    * Form component [5]
-    * Serverless function to send email component [3]
   * Footer
 * Article template [2]
   * Header
@@ -47,6 +44,11 @@
     * Excerpt component [0.5]
     * Read more Button
   * Footer
+* FAQ page [4]
+* Contact page [10]
+  * Social media link list component [2]
+  * Form component [5]
+  * Serverless function to send email component [3]
 * Common components [18.5]
   * Content component (global styles) [3]
   * Header component [4]
@@ -59,22 +61,34 @@
   * Buttons component [2]
 * Commitizen [1]
 * Theme-UI [3]
-* Styled-components [1]
+* Styled-components [1] ?
 * CMS configutarion [6]
 * Dev documentation [3]
 * Author documentation [3]
 * Animations & transitions [4]
+* Gatsby Themes [2]
 
 </details>
 
 #### Routing
 
 * Logo - `/`
-* Services - `#services`
-* Resources - `#resources`
-* FAQ - `#faq`
+* Services - `/services`
+* Taxation service - `/taxation`
+* Consulting service - `/consulting`
+* Accounting service - `/accounting`
+* FAQ - `/faq`
 * Blog - `/blog`
-* Contact us - `#contacts`
+* Contact us - `/contacts`
+
+```
+https://sandiegocpa.com/services                  - template
+  https://sandiegocpa.com/taxation                - page
+  https://sandiegocpa.com/consulting              - page
+  https://sandiegocpa.com/accounting              - page
+https://sandiegocpa.com/blog                      - page
+  https://sandiegocpa.com/blog/corporate-taxation - template
+```
 
 ### Workflow
 
