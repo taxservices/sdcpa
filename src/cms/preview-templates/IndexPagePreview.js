@@ -13,7 +13,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
       />
     )
   } else {
-    return <div><i role="img" aria-label="Hourglass">⏳</i>Loading...</div>
+    return <div><span role="img" aria-label="Hourglass">⏳</span>Loading...</div>
   }
 }
 
