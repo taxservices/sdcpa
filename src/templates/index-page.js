@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+<<<<<<< HEAD
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
@@ -124,6 +125,22 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+=======
+import { graphql } from 'gatsby'
+
+import Layout from '../components/Layout'
+
+export const IndexPageTemplate = ({
+  title,
+  heading
+}) => (
+  <h1>{ title }</h1>
+)
+
+IndexPageTemplate.propTypes = {
+  title: PropTypes.string,
+  heading: PropTypes.string,
+>>>>>>> 546f18122009bb74e2d33be43ec4d6846b992fd7
 }
 
 const IndexPage = ({ data }) => {
@@ -132,6 +149,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
+<<<<<<< HEAD
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -139,6 +157,10 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+=======
+        title={frontmatter.title}
+        heading={frontmatter.heading}
+>>>>>>> 546f18122009bb74e2d33be43ec4d6846b992fd7
       />
     </Layout>
   )
@@ -148,8 +170,13 @@ IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
+<<<<<<< HEAD
     }),
   }),
+=======
+    })
+  })
+>>>>>>> 546f18122009bb74e2d33be43ec4d6846b992fd7
 }
 
 export default IndexPage
@@ -159,6 +186,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+<<<<<<< HEAD
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -191,3 +219,10 @@ export const pageQuery = graphql`
     }
   }
 `
+=======
+        heading
+      }
+    }
+  }
+`
+>>>>>>> 546f18122009bb74e2d33be43ec4d6846b992fd7
